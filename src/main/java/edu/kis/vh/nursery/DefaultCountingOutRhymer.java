@@ -43,7 +43,7 @@ public class DefaultCountingOutRhymer {
      * Wyswitla ostatni dodany element
      * @return
      */
-    protected int peekaboo() {
+    protected int peekaboo() { // TODO: Zmienienie nazwy funkcji w bardziej odpowiadajaca dzialaniu
         if (callCheck())
             return DEFAULT_VALUE;
         return numbers[total];
